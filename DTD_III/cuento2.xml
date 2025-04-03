@@ -1,0 +1,22 @@
+<!-- 
+Nombre: Kaiet de Pablo
+Curso: ASIR
+Fecha: 03/04/2025
+Ejercicio: Cuento 2
+-->
+<!DOCTYPE cuento SYSTEM "cuento.dtd">
+<cuento cod="02" titulo="La Maldición del Bosque" genero="terror">
+    <personajes>
+        <personaje id="3" tipo="principal" genero="M">
+            <nombre>Raúl</nombre>
+            <descripcion>Un joven investigador del ocultismo</descripcion>
+        </personaje>
+        <personaje id="4" tipo="antagonista" genero="N">
+            <nombre>La Sombra</nombre>
+            <descripcion>Una entidad maligna que se alimenta del miedo</descripcion>
+        </personaje>
+    </personajes>
+    <trama>Raúl se aventura en un bosque antiguo donde la sombra de un antiguo hechizo sigue acechando, buscando almas para consumir...</trama>
+    <etiqueta nombre="terror"/>
+    <precio>14.99</precio>
+</cuento>

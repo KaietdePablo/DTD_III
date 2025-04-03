@@ -1,0 +1,24 @@
+<!-- 
+Nombre: Kaiet de Pablo
+Curso: ASIR
+Fecha: 03/04/2025
+Ejercicio: Cuento 1
+-->
+<!DOCTYPE cuento SYSTEM "cuento.dtd">
+<cuento cod="01" titulo="El Bosque Encantado" genero="infantil">
+    <personajes>
+        <personaje id="1" tipo="principal" genero="M">
+            <nombre>pepe</nombre>
+            <descripcion>un chico guerrero</descripcion>
+            <descripcion_fisica> Pelo corto, ojos azules</descripcion_fisica>
+        </personaje>
+        <personaje id="2" tipo="secundario" genero="F">
+            <nombre>maria</nombre>
+            <descripcion>Una niña curiosa</descripcion>
+        </personaje>
+    </personajes>
+    <trama>pepe y maria entran en un bosque misterioso lleno de magia...</trama>
+    <etiqueta nombre="aventura"/>
+    <etiqueta nombre="amistad"/>
+    <precio moneda="eur">12.99</precio>
+</cuento>
