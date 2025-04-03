@@ -1,1 +1,4 @@
 # DTD_III
+Ejercicio 1: Cuentos
+
+Se han creado documentos XML que estructuran cuentos con una jerarquía específica. Cada cuento tiene un código único, un título obligatorio y un género opcional que puede ser infantil, fantasía o terror. Dentro del cuento se incluyen personajes con identificador único y un tipo predeterminado como principal, secundario o antagonista. Los personajes pueden tener nombre, género y opcionalmente una descripción, una imagen, una URL o una descripción física. Además, se define la trama y pueden añadirse etiquetas sin límite, junto con un precio opcional con moneda por defecto en euros. Se han generado dos cuentos con esta estructura: uno infantil y otro de terror. También se ha elaborado un DTD que valida la estructura de los cuentos, aunque hay restricciones, como la unicidad del ID o la validación precisa del formato del precio, que no pueden plasmarse en el DTD y requerirían validaciones adicionales mediante otros métodos.
